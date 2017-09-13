@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background: linear-gradient(#f2f2f2, #373737, #2b2b2b);
+	background-repeat: no-repeat;
+	height:auto;
+}
+
+body{
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+#center_image{
+	width: 1000px;
+	height: 500px;
+	background-image: url("images/faded.png");
+	background-size: 120%;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.kyle_ogrady{
+	font-size: 130px;
+	text-align: center;
+	padding-top: 160px;
+	font-family: Helvetica, sans-serif;
+	color:white;
+	text-shadow:
+  	-2px -2px 0 #D1A91E, 
+    2px -2px 0 #D1A91E,
+    -2px 2px 0 #D1A91E,
+     2px 2px 0 #D1A91E;
+
+}
+.creative_design{
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color:white;
+	font-size: 25px;
+	margin-top: -70px;
+
+}
+
+header ul {
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+header li {
+	display: inline-block;
+}
+
+header{
+
+	width: 1000px;		
+}
+#nav_button{
+	width: 150px;
+	background: linear-gradient(#D1A91E, #996600);
+	border-radius: 5px 5px;
+	padding: 5px;
+	margin: 11px;
+	font-family: 'Cinzel Decorative', cursive;
+	color: white;
+	font-size: 22px;
+	float:left;
+	box-shadow: 3px 3px 10px rgba(81,80,80, .9);
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	color: black;
+}
+
+
+footer{
+	display:block;
+	margin: 0 auto;
+}
+
+#footer{
+	margin: 0 auto;
+	width: 900px;
+	height: 30px;
+	background-color: rgba(153, 102, 0, .4);
+	border-radius: 5px 5px;
+	margin-bottom: 10px;
+}
+
+.email{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 5px;
+	color: black;
+	float:left;
+	margin-left: -450px;
+}
+
+.email a{
+	text-decoration: none;	
+	color: black;
+}
+.email a:hover{
+	color: white;	
+}
+
+.phone_num a{
+	text-decoration: none;
+	color: black;
+}
+
+.phone_num a:hover{
+	color:white;	
+}
+
+.phone_num{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 5px;
+	color: black;
+	float:left;
+	padding-left: 100px;
+	margin-left: 110px;
+}
+
+.social{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 5px;
+	color: black;
+	float:left;
+	padding-left: 190px;
+	margin-left: -324px;
+}
+
+.facebook{
+	margin-right: 4px;
+}
+
+.twitter{
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+.instagram{
+	margin-left: 3px;
+}
+
+#images{
+	float:left;
+	margin-left: 440px;
+	padding-top: 3px;
+}
+
+#images a{
+	text-decoration: none;
+
+}
+
+
+/******************Artwork***********************/
+
+
+.artwork{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color:white;
+	text-shadow:
+  	-2px -2px 0 black, 
+    2px -2px 0 black,
+    -2px 2px 0 black,
+     2px 2px 0 black;
+     font-size: 50px;
+}
+
+.line{
+
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
+
+margin-top: -20px;
+
+}
+
+#artwork_images{
+	padding-top: 20px;
+
+	padding-bottom: 20px;
+}
+
+
+
+#clay_black{
+	background:black;
+	height:270px; 
+	width:470px;
+	margin-left: 60px;
+	
+}
+
+#scene_1_black{
+	background:black;
+	height: 270px;
+	width:380px;
+	float: right;
+	margin-right: 60px;
+	position: relative;
+	margin-top:-270px;
+}
+
+#scene_2_black{
+	background:black;
+	height:270px; 
+	width:470px;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+#jux_black{
+	background:black;
+	height:270px;
+	width:380px;
+	margin-right: 60px;
+	margin-top:50px;
+	float: right;
+	margin-top: -270px;
+}
+
+/* clay black */
+#clay_black h2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 30px;
+	font-size: 40px;
+	opacity:0;
+}
+
+#clay_black h3{
+	position: absolute;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 30px;
+	padding-top: 90px;
+	font-size: 20px;
+	opacity:0;
+}
+
+
+#clay_black:hover h2, #clay_black:hover h3{
+	opacity:1;
+}
+
+#clay_black:hover img{
+	opacity: .25;
+
+}
+
+/* scene_1 */
+
+#scene_1_black h2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 23px;
+	font-size: 40px;
+	opacity:0;
+}
+
+#scene_1_black h3{
+	position: absolute;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 23px;
+	padding-top: 90px;
+	font-size: 20px;
+	opacity:0;
+}
+
+#scene_1_black:hover h2, #scene_1_black:hover h3{
+	opacity:1;
+}
+
+#scene_1_black:hover img{
+	opacity: .25;
+}
+
+/* scene 2 */
+
+#scene_2_black h2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 30px;
+	font-size: 40px;
+	opacity:0;
+}
+
+#scene_2_black h3{
+	position: absolute;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 30px;
+	padding-top: 90px;
+	font-size: 20px;
+	opacity:0;
+}
+
+#scene_2_black:hover h2, #scene_2_black:hover h3{
+	opacity:1;
+}
+
+#scene_2_black:hover img{
+	opacity: .25;
+}
+
+/* Jux */
+
+#jux_black h2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 22px;
+	font-size: 40px;
+	opacity:0;
+}
+
+#jux_black h3{
+	position: absolute;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: 22px;
+	padding-top: 90px;
+	font-size: 20px;
+	opacity:0;
+}
+
+#jux_black:hover h2, #jux_black:hover h3{
+	opacity:1;
+}
+
+#jux_black:hover img{
+	opacity: .25;
+}
+
+/*********** Skills **************/
+
+
+#languages {
+	position: relative;
+	
+	font-family:'Ubuntu Condensed', sans-serif;
+	background: #D1A91E;
+	width: 450px;
+	margin-top:70px;
+	margin-bottom: 100px;
+	border:1px solid #313030;
+	border-radius: 7px 7px;
+	
+}
+
+#languages h1{
+	font-size: 50px;
+}
+
+#languages ul{
+	font-size: 30px;
+}
+
+#software {
+	margin-left: 520px;
+	margin-top: -488px;
+	position: relative;
+	margin-bottom: 100px;
+	font-family:'Ubuntu Condensed', sans-serif;
+	background: #D1A91E;
+	width: 450px;
+	padding-bottom:59px;
+	border:1px solid #313030;
+	border-radius: 7px 7px;
+}
+
+#software h1{
+	font-size: 50px;
+}
+
+#software ul{
+	font-size: 30px;
+}
+
+#test{
+	position: relative;	
+}
+
+
+/*********** Projects and Experience ************/
+
+
+
+#project_1{
+	font-family:'Ubuntu Condensed', sans-serif;
+	background: #D1A91E;
+	width: 750px;
+	margin-top: 75px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+	border:1px solid #313030;
+	border-radius: 7px 7px;
+	
+
+}
+
+#project_1 h1, h3{
+	margin-left: 55px;
+}
+
+#project_2{
+	font-family:'Ubuntu Condensed', sans-serif;
+	background: #D1A91E;
+	width: 750px;
+	margin-top: 0px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+	border:1px solid #313030;
+	border-radius: 7px 7px;
+	
+}
+
+#project_2 h1, h3{
+	margin-left: 55px;
+}
+
+#project_3{
+	font-family:'Ubuntu Condensed', sans-serif;
+	background: #D1A91E;
+	width: 750px;
+	margin-top: 0px;
+	margin-left: 140px;
+	margin-bottom: 50px;
+	border:1px solid #313030;
+	border-radius: 7px 7px;
+	
+}
+
+#project_3 h1, h3{
+	margin-left: 55px;
+}
+
+/*********** Contact ************/
+
+section{
+	background: #D1A91E;
+	font-family:'Ubuntu Condensed', sans-serif;
+	width: 1000px;
+	font-size: 40px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	border:1px solid #313030;
+	border-radius: 7px 7px;
+}
+
+#table{
+	margin: 0 auto;	
+	
+}
+
+
