@@ -1,21 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* http://wadegarrett.com/ */
+
 html{
-	background: linear-gradient(#f2f2f2, #373737, #2b2b2b);
+	/*background: linear-gradient(#f2f2f2, #373737, #2b2b2b); */
 	background-repeat: no-repeat;
 	height:auto;
 }
 
 body{
 	margin: 0 auto;
-	width: 1000px;	
+	/*width: 1000px;*/ 	
 }
 
 #center_image{
 	width: 1000px;
-	height: 500px;
-	background-image: url("images/faded.png");
+	height: 500px;/*500px;*/
+	/*background-image: url("images/faded.png");*/
 	background-size: 120%;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -45,24 +47,8 @@ body{
 
 #test{
 	font-size: 200px;
-	
-	
 }
 
-#header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  /*font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  background-color: #fafafa;
-  line-height: 100px;
-  font-size: 15px;
-  z-index: 1000; */
-}
 
 header ul {
 	list-style-type: none;
@@ -75,26 +61,29 @@ header li {
 }
 
 header{
-
-	width: 1000px;	
+	float: right;
+	/*width: 1000px;*/	
+	top: 0;
+    right: 0;
 	position: fixed;
+	/*background-color: rgb(220,220,220);*/ 
 }
+
 #nav_button{
-	width: 150px;
-	background: linear-gradient(#D1A91E, #996600);
-	border-radius: 5px 5px;
+	/*width: 100px;*/
+	
 	padding: 5px;
 	margin: 11px;
-	font-family: 'Cinzel Decorative', cursive;
-	color: white;
+	font-family: 'Raleway', "sans-serif";
+	font-weight: 500;
 	font-size: 22px;
-	float:left;
-	box-shadow: 3px 3px 10px rgba(81,80,80, .9);
+	float: left;
+	
 }
 
 nav a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 nav a:hover{
