@@ -11,7 +11,7 @@ html{
 
 body{
 	margin: 0 auto;
-	/*width: 1000px;*/ 	
+	width: 1000px; 	
 }
 
 #center_image{
@@ -23,12 +23,14 @@ body{
 	background-repeat: no-repeat;
 }
 
+
 .kyle_ogrady{
 	font-size: 130px;
 	text-align: center;
+
 	padding-top: 160px;
 	font-family: Helvetica, sans-serif;
-	color:white;
+	color: black;
 	text-shadow:
   	-2px -2px 0 #D1A91E, 
     2px -2px 0 #D1A91E,
@@ -54,6 +56,7 @@ header ul {
 	list-style-type: none;
 	text-align: center;
 	padding-bottom: 4px;
+	float: right;
 }
 
 header li {
@@ -61,12 +64,15 @@ header li {
 }
 
 header{
-	float: right;
+	display: inline-block;
 	/*width: 1000px;*/	
 	top: 0;
-    right: 0;
 	position: fixed;
 	/*background-color: rgb(220,220,220);*/ 
+}
+
+header h1{
+	float:left;
 }
 
 #nav_button{
