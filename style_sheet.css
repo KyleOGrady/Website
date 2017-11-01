@@ -6,37 +6,35 @@
 html{
 	height: auto;
 	width: 100%;
-	
 }
 
 body{
 	margin: 0 auto;
 	width: 80%;
-		
+	padding: 0;
 }
 
 #center_image{
-	background-image: url("images/landscape1.png");
+	background-image: url("images/landscape3.png");
 	background-size: 100%;
 	height: 100%;
 	width: 100%;
-	box-shadow: 0px 40px 50px 0 white inset, 0px -40px 50px 0 white inset; 
+	box-shadow: 0px 90px 50px 0 white inset, 0px -90px 50px 0 white inset; 
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 140px;
-	margin-bottom: 60px;
+	margin-top: 70px;
+	padding-top: 20px; 
 }
 
-.kyle_ogrady{
+
+#design{
 	font-size: 8vw;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-	/*padding-top: 160px; */
+	padding-top: 5px; 
+	margin-top: 68px;
 	font-family: 'Raleway', Helvetica, sans-serif;
-	color: white;
+	color: black;
 }
 
 .creative_design{
@@ -44,13 +42,7 @@ body{
 	font-family: 'Ubuntu Condensed', sans-serif;
 	color:black;
 	font-size: 25px;
-	/*margin-top: -70px; */
 }
-
-#test{
-	font-size: 200px;
-}
-
 
 header ul {
 	list-style-type: none;
@@ -87,6 +79,16 @@ header {
 	font-size: 27px;
 }
 
+.header_name a{
+	text-decoration: none;
+	color: black;
+}
+
+.header_name a:hover{
+	text-decoration: underline;
+}
+
+
 .header_nav{
 	position: fixed;
 	top: 0;
@@ -113,340 +115,88 @@ nav a:hover{
 }
 
 #home_text_container{
-	width: 90%;
+	width: 70%;
 	margin: auto;
 }
 
 .home_text{
 	font-family: 'Raleway', "sans-serif";
-	font-weight: 400;
-	font-size: 1.3em;
+	font-weight: 500;
+	font-size: 1.74em;
 	letter-spacing: 1px;
 	word-spacing: 4px;
 }
 
-footer{
-	display:block;
-	margin: 0 auto;
+#footer-container{
+	position: absolute;
+	bottom:-1;
+	left: 0;
 	width: 100%;
-}
-
-#footer{
-	margin: 0 auto;
-	width: 900px;
-	height: 30px;
+	height: 50px;
 	background-color: gray;
-	border-radius: 5px 5px;
-	margin-top: 80px;
-	margin-bottom: 10px;
+	padding-bottom: 10px;	
+	font-family: 'Raleway', "sans-serif";
+	font-weight: 400;
 }
 
-.email{
-	font-family: 'Ubuntu Condensed', sans-serif;
-	margin-top: 5px;
-	color: black;
-	float:left;
-	margin-left: -450px;
+.copywrite{
+	font-weight: 700;
+	float: left;
 }
 
-.email a{
-	text-decoration: none;	
-	color: black;
-}
-.email a:hover{
-	color: white;	
+.copywrite h3{
+	font-weight: 400;
 }
 
-.phone_num a{
-	text-decoration: none;
-	color: black;
-}
-
-.phone_num a:hover{
-	color:white;	
-}
-
-.phone_num{
-	font-family: 'Ubuntu Condensed', sans-serif;
-	margin-top: 5px;
-	color: black;
-	float:left;
-	padding-left: 100px;
-	margin-left: 110px;
-}
-
-.social{
-	font-family: 'Ubuntu Condensed', sans-serif;
-	margin-top: 5px;
-	color: black;
-	float:left;
-	padding-left: 190px;
-	margin-left: -324px;
-}
-
-.facebook{
-	margin-right: 4px;
-}
-
-.twitter{
-	margin-right: 4px;
-	margin-left: 4px;
-}
-
-.instagram{
-	margin-left: 3px;
-}
-
-#images{
-	float:left;
-	margin-left: 440px;
-	padding-top: 3px;
-}
-
-#images a{
-	text-decoration: none;
-
-}
-
-
-/******************Artwork***********************/
-
-
-.artwork{
-	font-family: 'Ubuntu Condensed', sans-serif;
-	color:white;
-	text-shadow:
-  	-2px -2px 0 black, 
-    2px -2px 0 black,
-    -2px 2px 0 black,
-     2px 2px 0 black;
-     font-size: 50px;
-}
-
-.line{
-
-height:1px;
-
-background:#717171;
-
-border-bottom:1px solid #313030;
-
-margin-top: -20px;
-
-}
-
-#artwork_images{
-	padding-top: 20px;
-
-	padding-bottom: 20px;
-}
-
-
-
-#clay_black{
-	background:black;
-	height:270px; 
-	width:470px;
-	margin-left: 60px;
-	
-}
-
-#scene_1_black{
-	background:black;
-	height: 270px;
-	width:380px;
+.links{
 	float: right;
-	margin-right: 60px;
-	position: relative;
-	margin-top:-270px;
 }
 
-#scene_2_black{
-	background:black;
-	height:270px; 
-	width:470px;
-	margin-left: 60px;
-	margin-top: 50px;
+.links a{
+	font-weight: 400;
 }
 
-#jux_black{
-	background:black;
-	height:270px;
-	width:380px;
-	margin-right: 60px;
-	margin-top:50px;
-	float: right;
-	margin-top: -270px;
-}
+/*********** Resume **************/
 
-/* clay black */
-#clay_black h2{
-	position: absolute;
-	color: white;
-	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 30px;
-	font-size: 40px;
-	opacity:0;
-}
-
-#clay_black h3{
-	position: absolute;
-	color: white;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 30px;
-	padding-top: 90px;
-	font-size: 20px;
-	opacity:0;
-}
-
-
-#clay_black:hover h2, #clay_black:hover h3{
-	opacity:1;
-}
-
-#clay_black:hover img{
-	opacity: .25;
-
-}
-
-/* scene_1 */
-
-#scene_1_black h2{
-	position: absolute;
-	color: white;
-	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 23px;
-	font-size: 40px;
-	opacity:0;
-}
-
-#scene_1_black h3{
-	position: absolute;
-	color: white;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 23px;
-	padding-top: 90px;
-	font-size: 20px;
-	opacity:0;
-}
-
-#scene_1_black:hover h2, #scene_1_black:hover h3{
-	opacity:1;
-}
-
-#scene_1_black:hover img{
-	opacity: .25;
-}
-
-/* scene 2 */
-
-#scene_2_black h2{
-	position: absolute;
-	color: white;
-	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 30px;
-	font-size: 40px;
-	opacity:0;
-}
-
-#scene_2_black h3{
-	position: absolute;
-	color: white;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 30px;
-	padding-top: 90px;
-	font-size: 20px;
-	opacity:0;
-}
-
-#scene_2_black:hover h2, #scene_2_black:hover h3{
-	opacity:1;
-}
-
-#scene_2_black:hover img{
-	opacity: .25;
-}
-
-/* Jux */
-
-#jux_black h2{
-	position: absolute;
-	color: white;
-	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 22px;
-	font-size: 40px;
-	opacity:0;
-}
-
-#jux_black h3{
-	position: absolute;
-	color: white;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding-left: 22px;
-	padding-top: 90px;
-	font-size: 20px;
-	opacity:0;
-}
-
-#jux_black:hover h2, #jux_black:hover h3{
-	opacity:1;
-}
-
-#jux_black:hover img{
-	opacity: .25;
-}
-
-/*********** Skills **************/
-
-
-#languages {
-	position: relative;
-	
-	font-family:'Ubuntu Condensed', sans-serif;
-	background: #D1A91E;
-	width: 450px;
-	margin-top:70px;
-	margin-bottom: 100px;
-	border:1px solid #313030;
-	border-radius: 7px 7px;
+#resume_page{
 	
 }
 
-#languages h1{
+
+.resume_header{
+	font-family: 'Raleway', "sans-serif";
+	font-weight: 500;
 	font-size: 50px;
+	margin-top:100px;
 }
 
-#languages ul{
-	font-size: 30px;
+.resume_display{
+	width: 100%;
+	margin: auto;
+
+	margin-bottom: 50px;
 }
 
-#software {
-	margin-left: 520px;
-	margin-top: -488px;
-	position: relative;
-	margin-bottom: 100px;
-	font-family:'Ubuntu Condensed', sans-serif;
-	background: #D1A91E;
-	width: 450px;
-	padding-bottom:59px;
-	border:1px solid #313030;
-	border-radius: 7px 7px;
+.resume_pdf{
+	margin: 0 auto;
 }
 
-#software h1{
-	font-size: 50px;
+
+/******************Bio***********************/
+
+#bio_page{
+
 }
 
-#software ul{
-	font-size: 30px;
+#bio_page p{
+	font-family: 'Raleway', "sans-serif";
+	font-size: 1.5em;
 }
 
-#test{
-	position: relative;	
+.bio_pic{
+	margin-right: 15px; 
+	margin-bottom: 5px;
+	border:2px solid #021a40;
 }
 
 
