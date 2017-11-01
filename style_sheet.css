@@ -6,6 +6,8 @@
 html{
 	height: auto;
 	width: 100%;
+	position: relative;
+    min-height: 100%;
 }
 
 body{
@@ -127,33 +129,39 @@ nav a:hover{
 	word-spacing: 4px;
 }
 
+
+/************************ Footer ***********************************/
 #footer-container{
 	position: absolute;
-	bottom:-1;
+	bottom:0;
 	left: 0;
+	right: 0;
 	width: 100%;
-	height: 50px;
+	height: 75px;
 	background-color: gray;
-	padding-bottom: 10px;	
 	font-family: 'Raleway', "sans-serif";
 	font-weight: 400;
 }
 
 .copywrite{
-	font-weight: 700;
 	float: left;
+	font-size: 20px;
 }
 
 .copywrite h3{
 	font-weight: 400;
 }
 
-.links{
+.icons{
+	margin-top: 12px;
+	padding-right: 30px;
+	
 	float: right;
 }
 
-.links a{
-	font-weight: 400;
+.footer_icons{
+	font-size:48px;
+	padding-left: 
 }
 
 /*********** Resume **************/
@@ -190,7 +198,7 @@ nav a:hover{
 
 #bio_page p{
 	font-family: 'Raleway', "sans-serif";
-	font-size: 1.5em;
+	font-size: 1.5vw;
 }
 
 .bio_pic{
@@ -213,7 +221,6 @@ nav a:hover{
 	margin-bottom: 50px;
 	border:1px solid #313030;
 	border-radius: 7px 7px;
-	
 
 }
 
