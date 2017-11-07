@@ -79,6 +79,7 @@ header {
 	font-family: 'Raleway', "sans-serif";
 	font-weight: 700;
 	font-size: 27px;
+	padding-left: 22px;
 }
 
 .header_name a{
@@ -94,7 +95,7 @@ header {
 .header_nav{
 	position: fixed;
 	top: 0;
-	right:0;
+	right: 0;
 	padding-right: 22px;
 } 
 
@@ -119,6 +120,7 @@ nav a:hover{
 #home_text_container{
 	width: 70%;
 	margin: auto;
+	padding-bottom: 10%;
 }
 
 .home_text{
@@ -129,15 +131,23 @@ nav a:hover{
 	word-spacing: 4px;
 }
 
+.body_header{
+	font-family: 'Raleway', "sans-serif";
+	font-weight: 500;
+	font-size: 50px;
+	margin-top:100px;
+}
 
 /************************ Footer ***********************************/
+
+
 #footer-container{
 	position: absolute;
 	bottom:0;
 	left: 0;
 	right: 0;
 	width: 100%;
-	height: 75px;
+	height: 65px;
 	background-color: gray;
 	font-family: 'Raleway', "sans-serif";
 	font-weight: 400;
@@ -145,37 +155,48 @@ nav a:hover{
 
 .copywrite{
 	float: left;
-	font-size: 20px;
+	font-size: 110%;
+	padding-left: 4%;
 }
 
 .copywrite h3{
 	font-weight: 400;
+
 }
 
 .icons{
-	margin-top: 12px;
-	padding-right: 30px;
-	
+	margin-top: .4%;
+	padding-right: 4.5%;
+	font-size: 48px;
 	float: right;
 }
 
-.footer_icons{
-	font-size:48px;
-	padding-left: 
+.icons a{
+	color: black;
 }
+
+.icons a:hover{
+	color: white;
+}
+
+.footer_icon_spacing{
+	padding-left: 10px;
+}
+
+/************ Projects *****************/
+
+#projects_page{
+
+}
+
+/*********** Experience ****************/
+
+
 
 /*********** Resume **************/
 
 #resume_page{
 	
-}
-
-
-.resume_header{
-	font-family: 'Raleway', "sans-serif";
-	font-weight: 500;
-	font-size: 50px;
-	margin-top:100px;
 }
 
 .resume_display{
@@ -208,57 +229,7 @@ nav a:hover{
 }
 
 
-/*********** Projects and Experience ************/
 
-
-
-#project_1{
-	font-family:'Ubuntu Condensed', sans-serif;
-	background: #D1A91E;
-	width: 750px;
-	margin-top: 75px;
-	margin-left: 140px;
-	margin-bottom: 50px;
-	border:1px solid #313030;
-	border-radius: 7px 7px;
-
-}
-
-#project_1 h1, h3{
-	margin-left: 55px;
-}
-
-#project_2{
-	font-family:'Ubuntu Condensed', sans-serif;
-	background: #D1A91E;
-	width: 750px;
-	margin-top: 0px;
-	margin-left: 140px;
-	margin-bottom: 50px;
-	border:1px solid #313030;
-	border-radius: 7px 7px;
-	
-}
-
-#project_2 h1, h3{
-	margin-left: 55px;
-}
-
-#project_3{
-	font-family:'Ubuntu Condensed', sans-serif;
-	background: #D1A91E;
-	width: 750px;
-	margin-top: 0px;
-	margin-left: 140px;
-	margin-bottom: 50px;
-	border:1px solid #313030;
-	border-radius: 7px 7px;
-	
-}
-
-#project_3 h1, h3{
-	margin-left: 55px;
-}
 
 /*********** Contact ************/
 
