@@ -293,4 +293,23 @@ nav a:hover{
 	text-decoration: underline;
 }
 
+input[type=text], input[type=email], textarea{
+	width: 50%;
+	margin-top: 2%;
+	padding: 0.5%;
+	box-sizing: border-box;
+	font-size: 1.5em;
+	font-family: 'Raleway', "sans-serif";
+}
 
+textarea {
+	height: 150px;
+}
+
+.submit-button {
+	width: 10%;
+	height: 40px;
+	font-size: 1em;
+	font-family: 'Raleway', "sans-serif";
+	margin-top: 2%;
+}
