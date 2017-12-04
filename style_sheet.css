@@ -138,6 +138,10 @@ nav a:hover{
 	margin-top:100px;
 }
 
+.padding-footer{
+	padding-bottom: 8%;
+}
+
 /************************ Footer ***********************************/
 
 
@@ -189,7 +193,41 @@ nav a:hover{
 
 }
 
+.project{
+	font-family: 'Raleway', "sans-serif";
+	font-size: 1.2em;
+	padding-bottom: 1%;
+}
+
+.project h3{
+	font-weight: 700;
+}
+
+.project img{
+	border:2px solid #021a40;
+}
+
+
 /*********** Experience ****************/
+
+#experience_page{
+
+}
+
+.experience{
+	font-family: 'Raleway', "sans-serif";
+	font-size: 1.2em;
+	padding-bottom: 1%;
+}
+
+.experience h3{
+	font-weight: 700;
+}
+
+.experience img{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 
 
 
@@ -233,20 +271,26 @@ nav a:hover{
 
 /*********** Contact ************/
 
-section{
-	background: #D1A91E;
-	font-family:'Ubuntu Condensed', sans-serif;
-	width: 1000px;
-	font-size: 40px;
-	margin-top: 70px;
-	margin-bottom: 100px;
-	border:1px solid #313030;
-	border-radius: 7px 7px;
+#contact_page{
+	
 }
 
-#table{
-	margin: 0 auto;	
-	
+.by{
+	font-family: 'Raleway', "sans-serif";
+	font-size: 2vw;
+}
+
+.method{
+	font-family: 'Raleway', "sans-serif";
+	font-size: 1.5vw;
+}
+
+.method a{
+	text-decoration: none;
+}
+
+.method a:hover{
+	text-decoration: underline;
 }
 
 
