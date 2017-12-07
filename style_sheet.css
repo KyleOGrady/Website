@@ -292,8 +292,17 @@ nav a:hover{
 	font-weight: 700;
 }
 
+
 .project img{
 	border:2px solid #021a40;
+	opacity: 0.6;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.project img:hover{
+	opacity: 1;
 }
 
 
